@@ -7,6 +7,8 @@ const OptionModal = props => {
   return (
     <Modal isOpen={!!props.selectedOption} contentLabel="Selected Option">
       <h3>Selected Option</h3>
+      {props.selectedOption && <p>{props.selectedOption}</p>}
+      <button onClick={props.HandleClearSelectedOption}>Okay</button>
     </Modal>
   );
 };

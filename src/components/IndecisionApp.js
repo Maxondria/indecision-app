@@ -61,6 +61,12 @@ class IndecisionApp extends React.Component {
     }));
   };
 
+  HandleClearSelectedOption = () => {
+    this.setState(() => ({
+      selectedOption: undefined
+    }));
+  };
+
   render() {
     const subtitle = "Put your life in the hands of a computer";
 
@@ -77,7 +83,10 @@ class IndecisionApp extends React.Component {
           handleDeleteOption={this.handleDeleteOption}
         />
         <AddOption handleAddOption={this.handleAddOption} />
-        <OptionModal selectedOption={this.state.selectedOption} />
+        <OptionModal
+          selectedOption={this.state.selectedOption}
+          HandleClearSelectedOption={this.HandleClearSelectedOption}
+        />
       </div>
     );
   }

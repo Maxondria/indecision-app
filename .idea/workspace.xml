@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe97550-d7cd-480d-a941-393f3d5b55f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/styles/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IndecisionApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndecisionApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/OptionModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OptionModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +21,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,6 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.7.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -105,7 +111,7 @@
       <workItem from="1569918333529" duration="2426000" />
       <workItem from="1569998866658" duration="7357000" />
       <workItem from="1570009343607" duration="2591000" />
-      <workItem from="1570017831160" duration="4459000" />
+      <workItem from="1570017831160" duration="6760000" />
     </task>
     <servers />
   </component>

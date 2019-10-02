@@ -5,12 +5,10 @@ import Options from "./Options";
 import Action from "./Action";
 
 class IndecisionApp extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      options: []
-    };
-  }
+  state = {
+    options: []
+  };
+
   componentDidMount() {
     try {
       const json = localStorage.getItem("options");
@@ -54,7 +52,7 @@ class IndecisionApp extends React.Component {
     }
 
     this.setState(prevState => ({
-      options: prevState.options.concat(option)
+      options: [...prevState.options, option]
     }));
   };
 

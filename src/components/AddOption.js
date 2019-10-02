@@ -1,12 +1,9 @@
 import React from "react";
 
 class AddOption extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      error: undefined
-    };
-  }
+  state = {
+    error: undefined
+  };
 
   handleAddOption = e => {
     e.preventDefault();

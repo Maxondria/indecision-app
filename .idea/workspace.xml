@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe97550-d7cd-480d-a941-393f3d5b55f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/OptionModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddOption.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddOption.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/IndecisionApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndecisionApp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -107,7 +109,7 @@
       <workItem from="1569918333529" duration="2426000" />
       <workItem from="1569998866658" duration="7357000" />
       <workItem from="1570009343607" duration="2591000" />
-      <workItem from="1570017831160" duration="1707000" />
+      <workItem from="1570017831160" duration="3321000" />
     </task>
     <servers />
   </component>
